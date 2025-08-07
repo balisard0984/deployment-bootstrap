@@ -10,7 +10,7 @@
 # - ssh connection detection -> text mode processing
 #=============================================================================
 
-set -e  # Exit on error
+# set -e  # Exit on error
 
 # Color codes for output
 RED='\033[0;31m'
