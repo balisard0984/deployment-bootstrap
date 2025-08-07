@@ -1,7 +1,20 @@
 #!/bin/bash
 
-# NVIDIA Container Toolkit Installation Script for Ubuntu (Simplified Version)
+# 
 # Based on: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
+#=============================================================================
+# NVIDIA Container Toolkit Installation Script for Ubuntu (Balisard0984)
+# Version: 1.2-inline
+# Description: 
+# - first relase (v1.0)
+# - fixed nvidia container toolkit version : 1.17.8-1 (v1.0)
+# - support OS : Ubuntu 20.04, 22.04, 24.04 LTS (v1.0)
+# - Sequential execution without function calls (v1.2)
+# - non root execution (v1.2)
+# - erase : TUI , only CLI (v1.2)
+# - erase : experimental option, complex log print, test run with docker process (v1.2)
+#=============================================================================
 
 set -euo pipefail
 
